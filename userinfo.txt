@@ -1,0 +1,11 @@
+id;name;email
+1;Ivan;ivan@mail.ru
+2;Marija;Marija@yandex.ru
+3;Alexander;Alexander@gmail
+4;Mihail;Mihail@live.ru
+5;Sofia;Sofya@yandex.ru
+6;Dmitrij;Dmitrij@mail.ru
+7;Vladimir;Vladimir@gmail
+8;Olga;Olga@yandex.ru
+9;Juliya;Juliya@mail.ru
+10;Sergey;sergey@live.ru
