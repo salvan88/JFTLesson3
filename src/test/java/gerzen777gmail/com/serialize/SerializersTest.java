@@ -53,6 +53,6 @@ public class SerializersTest {
     private UserCollection prepareTestData() throws IOException {
 
         CsvUserDeserializer csvUserDeserializer = new CsvUserDeserializer();
-        return csvUserDeserializer.deserializer(new File("D:\\Work\\java\\Lesson3\\userinfo.csv"));
+        return csvUserDeserializer.deserializer(new File("userinfo.csv"));
     }
 }

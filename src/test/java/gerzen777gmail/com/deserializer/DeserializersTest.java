@@ -13,7 +13,7 @@ public class DeserializersTest {
     public void jsonUserDeserializer() throws IOException {
 
         JsonUserDeserializer jsonUserDeserializer = new JsonUserDeserializer();
-        UserCollection users = jsonUserDeserializer.deserializer(new File("D:\\Work\\java\\Lesson3\\userinfo.json"));
+        UserCollection users = jsonUserDeserializer.deserializer(new File("userinfo.json"));
 
         Assertions.assertEquals(users.getUsers().size(), 11);
         Assertions.assertEquals("id", users.getUsers().iterator().next().getId());
@@ -23,7 +23,7 @@ public class DeserializersTest {
     public void csvUserDeserializer() throws IOException {
 
         CsvUserDeserializer csvUserDeserializer = new CsvUserDeserializer();
-        UserCollection users = csvUserDeserializer.deserializer(new File("D:\\Work\\java\\Lesson3\\userinfo.csv"));
+        UserCollection users = csvUserDeserializer.deserializer(new File("userinfo.csv"));
 
         Assertions.assertEquals(users.getUsers().size(), 11);
         Assertions.assertEquals("id", users.getUsers().iterator().next().getId());
@@ -33,7 +33,7 @@ public class DeserializersTest {
     public void xmlUserDeserializer() throws IOException {
 
         XmlUserDeserializer xmlUserDeserializer = new XmlUserDeserializer();
-        UserCollection users = xmlUserDeserializer.deserializer(new File ("D:\\Work\\java\\Lesson3\\userinfo.xml"));
+        UserCollection users = xmlUserDeserializer.deserializer(new File ("userinfo.xml"));
 
         Assertions.assertEquals(users.getUsers().size(), 11);
         Assertions.assertEquals("id", users.getUsers().iterator().next().getId());
