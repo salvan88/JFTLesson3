@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 
 public class User implements Serializable {
-    String id;
-    String name;
-    String email;
+    private String id;
+    public String name;
+    public String email;
 
     public String getId() {
         return id;

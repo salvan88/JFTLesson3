@@ -1,11 +1,11 @@
 package gerzen777gmail.com.deserializer;
 
-import gerzen777gmail.com.model.User;
+import gerzen777gmail.com.model.UserCollection;
 
 import java.io.File;
-import java.util.Collection;
+import java.io.IOException;
 
 public interface UserDeserializer {
-    Collection<User> deserializer(File file);
+    UserCollection deserializer(File file) throws IOException;
 
 }
