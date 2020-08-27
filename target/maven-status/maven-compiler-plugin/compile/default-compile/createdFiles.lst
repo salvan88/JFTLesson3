@@ -1,7 +1,0 @@
-gerzen777gmail\com\model\User.class
-gerzen777gmail\com\model\UserCollection.class
-gerzen777gmail\com\serialize\JsonUserSerializer.class
-gerzen777gmail\com\serialize\UserTestSerializer.class
-gerzen777gmail\com\deserializer\JsonUserDeserializer.class
-gerzen777gmail\com\deserializer\UserDeserializer.class
-gerzen777gmail\com\serialize\UserSerializer.class
